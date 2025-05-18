@@ -1,7 +1,5 @@
 # Requirement Analysis in Software Development.
 
-# 📋 Requirement Analysis in Software Development
-
 ## 📌 What is Requirement Analysis?
 
 **Requirement Analysis** is a critical process in the Software Development Life Cycle (SDLC) that involves identifying, gathering, analyzing, and documenting the needs and expectations of stakeholders for a software system.
@@ -39,13 +37,35 @@ Helps in assessing the impact of any changes made during the development cycle.
 
 ## 🧩 Types of Requirements
 
-| Type | Description | Examples |
-|------|-------------|----------|
-| **Functional Requirements** | Describe what the system should do | Login, user registration, data processing |
-| **Non-functional Requirements** | Define how the system performs | Performance, scalability, usability |
-| **Business Requirements** | High-level business needs | Improve customer retention |
-| **User Requirements** | What the user expects from the system | Search, export data |
-| **System Requirements** | Technical and infrastructure needs | Database, server OS, APIs |
+Requirements are generally categorized into two main types:
+
+### 1. ⚙️ Functional Requirements
+
+These describe what the system **should do**—the core functions and behaviors.
+
+**Definition:**  
+Functional requirements specify specific actions or tasks the system must perform to meet user and business needs.
+
+**Examples for a Booking Management System:**
+- Users can **search available bookings** by date and category.
+- The system allows **user registration and login** with verification.
+- Admins can **create, update, or delete** booking records.
+- The system **sends a confirmation email** upon successful booking.
+
+---
+
+### 2. 🚀 Non-functional Requirements
+
+These describe **how well** the system should perform—its quality attributes.
+
+**Definition:**  
+Non-functional requirements define performance, usability, reliability, and other operational aspects of the system.
+
+**Examples for a Booking Management System:**
+- The system must **load any page within 3 seconds** under normal load.
+- The platform should support **1,000 concurrent users** without performance degradation.
+- The application must be **available 99.9% of the time** (high availability).
+- User data should be **encrypted both at rest and in transit**.
 
 ---
 
@@ -54,52 +74,51 @@ Helps in assessing the impact of any changes made during the development cycle.
 The requirement analysis process includes five key activities, each playing a crucial role in ensuring comprehensive and accurate requirements.
 
 ### 1. 📥 Requirement Gathering
-
-This is the initial step where information is collected from stakeholders, users, domain experts, and documents. The goal is to understand the business problem and user expectations.
-
-**Common techniques:**
-- Interviews and surveys
-- Review of existing documentation
-- Observations
-- Market and competitor analysis
+Collect raw information from stakeholders, users, and existing systems.
+> Techniques: Interviews, surveys, document review
 
 ### 2. 🗣️ Requirement Elicitation
-
-Elicitation goes beyond simple data collection—it involves drawing out hidden or implicit needs through structured discussions and workshops.
-
-**Common techniques:**
-- Brainstorming sessions
-- Focus groups
-- Joint Application Development (JAD)
-- Prototyping to clarify ambiguous requirements
+Uncover implicit or hidden needs through structured interaction.
+> Techniques: Workshops, prototyping, brainstorming
 
 ### 3. 📝 Requirement Documentation
-
-After gathering and eliciting information, requirements are documented in a structured and clear format. This documentation serves as the official reference throughout the SDLC.
-
-**Common documents:**
-- Software Requirements Specification (SRS)
-- User stories and use cases
-- Functional and non-functional requirement lists
+Clearly record requirements in SRS or other formats for shared understanding.
+> Tools: SRS templates, user stories, flowcharts
 
 ### 4. 📊 Requirement Analysis and Modeling
-
-At this stage, requirements are reviewed, categorized, prioritized, and modeled to ensure consistency and completeness. It helps in identifying conflicts, redundancies, and dependencies.
-
-**Common tools and models:**
-- UML diagrams (Use Case, Activity, Class diagrams)
-- Data flow diagrams (DFD)
-- Entity-relationship diagrams (ERD)
-- Process flows
+Refine, prioritize, and model requirements to resolve conflicts and ensure clarity.
+> Models: Use Case Diagrams, ERD, DFD, Activity Diagrams
 
 ### 5. ✅ Requirement Validation
+Confirm that requirements are correct, feasible, and aligned with business goals.
+> Techniques: Walkthroughs, reviews, stakeholder sign-offs
 
-Validation ensures that the documented requirements reflect stakeholder needs, are feasible, and are aligned with business goals. It involves reviews, walkthroughs, and feedback sessions.
+---
 
-**Validation goals:**
-- Ensure completeness and correctness
-- Check for testability and feasibility
-- Gain stakeholder approval
+## ✅ Acceptance Criteria
+
+### 🔍 What is Acceptance Criteria?
+
+**Acceptance Criteria** define the specific conditions under which a feature or function is considered complete and acceptable by the client or stakeholders.
+
+### 📌 Importance in Requirement Analysis
+
+- Acts as the **“definition of done”** for each requirement
+- Ensures **shared understanding** between developers, testers, and stakeholders
+- Helps testers to create **precise test cases**
+- Reduces ambiguity and **prevents scope creep**
+
+### 🛒 Example: Acceptance Criteria for the **Checkout Feature** in a Booking Management System
+
+**Feature:** User Checkout
+
+**Acceptance Criteria:**
+- ✅ The user must be able to view a summary of their selected bookings.
+- ✅ The system must calculate the total price, including applicable taxes or discounts.
+- ✅ The user must be able to select a payment method (credit card, PayPal, etc.).
+- ✅ On successful payment, a booking confirmation page is shown.
+- ✅ A confirmation email with booking details is sent within 5 minutes.
+- ✅ If payment fails, the user receives an appropriate error message and can retry.
 
 ---
 
