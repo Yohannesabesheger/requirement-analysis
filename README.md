@@ -1,5 +1,7 @@
 # Requirement Analysis in Software Development.
 
+# 📋 Requirement Analysis in Software Development
+
 ## 📌 What is Requirement Analysis?
 
 **Requirement Analysis** is a critical process in the Software Development Life Cycle (SDLC) that involves identifying, gathering, analyzing, and documenting the needs and expectations of stakeholders for a software system.
@@ -47,22 +49,57 @@ Helps in assessing the impact of any changes made during the development cycle.
 
 ---
 
-## 🛠️ Steps in Requirement Analysis
+## 🛠️ Key Activities in Requirement Analysis
 
-1. **Requirement Elicitation**  
-   Techniques: Interviews, surveys, observations, workshops, prototyping
+The requirement analysis process includes five key activities, each playing a crucial role in ensuring comprehensive and accurate requirements.
 
-2. **Requirement Analysis**  
-   Analyze for clarity, feasibility, consistency, and priority
+### 1. 📥 Requirement Gathering
 
-3. **Requirement Specification**  
-   Document requirements using SRS, use case diagrams, flowcharts, etc.
+This is the initial step where information is collected from stakeholders, users, domain experts, and documents. The goal is to understand the business problem and user expectations.
 
-4. **Requirement Validation**  
-   Ensure correctness, completeness, and alignment with business goals
+**Common techniques:**
+- Interviews and surveys
+- Review of existing documentation
+- Observations
+- Market and competitor analysis
 
-5. **Requirement Management**  
-   Track and manage changes throughout the development lifecycle
+### 2. 🗣️ Requirement Elicitation
+
+Elicitation goes beyond simple data collection—it involves drawing out hidden or implicit needs through structured discussions and workshops.
+
+**Common techniques:**
+- Brainstorming sessions
+- Focus groups
+- Joint Application Development (JAD)
+- Prototyping to clarify ambiguous requirements
+
+### 3. 📝 Requirement Documentation
+
+After gathering and eliciting information, requirements are documented in a structured and clear format. This documentation serves as the official reference throughout the SDLC.
+
+**Common documents:**
+- Software Requirements Specification (SRS)
+- User stories and use cases
+- Functional and non-functional requirement lists
+
+### 4. 📊 Requirement Analysis and Modeling
+
+At this stage, requirements are reviewed, categorized, prioritized, and modeled to ensure consistency and completeness. It helps in identifying conflicts, redundancies, and dependencies.
+
+**Common tools and models:**
+- UML diagrams (Use Case, Activity, Class diagrams)
+- Data flow diagrams (DFD)
+- Entity-relationship diagrams (ERD)
+- Process flows
+
+### 5. ✅ Requirement Validation
+
+Validation ensures that the documented requirements reflect stakeholder needs, are feasible, and are aligned with business goals. It involves reviews, walkthroughs, and feedback sessions.
+
+**Validation goals:**
+- Ensure completeness and correctness
+- Check for testability and feasibility
+- Gain stakeholder approval
 
 ---
 
@@ -99,4 +136,3 @@ Requirement Analysis is a foundational process in the SDLC. It ensures that soft
 - [Prototypes and Mockups](docs/prototypes.md)
 
 > _“If you don't fully understand the problem, any solution you build is guaranteed to be wrong.”_
-
