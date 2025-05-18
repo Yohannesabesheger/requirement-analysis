@@ -1,134 +1,102 @@
 # Requirement Analysis in Software Development.
-## What is Requirement Analysis?
 
-Requirement Analysis: A Detailed Explanation
-Requirement Analysis is a critical phase in the Software Development Life Cycle (SDLC) that involves identifying, gathering, analyzing, and documenting the needs and expectations of stakeholders for a software system. It acts as a bridge between the problem domain and the software solution by clearly defining what the system should do (functional requirements) and how well it should perform (non-functional requirements).
+## 📌 What is Requirement Analysis?
 
-🔍 What is Requirement Analysis?
-Requirement Analysis is the process of:
+**Requirement Analysis** is a critical process in the Software Development Life Cycle (SDLC) that involves identifying, gathering, analyzing, and documenting the needs and expectations of stakeholders for a software system.
 
-Eliciting requirements from stakeholders.
+It serves as the foundation for all future stages of development by clearly defining:
 
-Analyzing the gathered data to remove conflicts or inconsistencies.
+- **What** the system should do (Functional Requirements)
+- **How well** the system should perform (Non-functional Requirements)
 
-Documenting clear and detailed requirements.
+---
 
-Validating the requirements with stakeholders for correctness and feasibility.
+## 🎯 Why is Requirement Analysis Important?
 
-It typically results in artifacts such as:
+Requirement Analysis plays a vital role in the SDLC due to the following reasons:
 
-Software Requirements Specification (SRS)
+### ✅ Clarity and Shared Understanding
+Ensures that stakeholders and the development team are on the same page about the system’s objectives and functions.
 
-Use Case Diagrams
+### ✅ Accurate Project Planning
+Allows for more precise estimation of time, budget, and resources.
 
-User Stories
+### ✅ Reduced Rework and Cost
+Minimizes misunderstandings and the need for costly changes later in the project.
 
-Process Models
+### ✅ Better Design and Development
+Provides a clear blueprint for developers to build the system correctly the first time.
 
-Prototypes
+### ✅ Effective Testing
+Serves as the basis for creating test cases and ensures that the system meets the expected requirements.
 
-🎯 Importance of Requirement Analysis in the SDLC
-Requirement Analysis is foundational to the success of any software project. Its importance can be understood through the following points:
+### ✅ Easier Change Management
+Helps in assessing the impact of any changes made during the development cycle.
 
-1. Clarity and Understanding
-It ensures that all stakeholders have a shared understanding of the system requirements, thereby minimizing the risk of misinterpretation or ambiguity.
+---
 
-2. Accurate Planning and Estimation
-With well-defined requirements, project managers can make accurate estimations for timelines, costs, resources, and risk management strategies.
+## 🧩 Types of Requirements
 
-3. Reduced Rework and Cost
-Poorly gathered or misunderstood requirements often lead to rework, which increases cost and delays. Early requirement clarity minimizes these risks.
+| Type | Description | Examples |
+|------|-------------|----------|
+| **Functional Requirements** | Describe what the system should do | Login, user registration, data processing |
+| **Non-functional Requirements** | Define how the system performs | Performance, scalability, usability |
+| **Business Requirements** | High-level business needs | Improve customer retention |
+| **User Requirements** | What the user expects from the system | Search, export data |
+| **System Requirements** | Technical and infrastructure needs | Database, server OS, APIs |
 
-4. Improved Design and Development
-Clear requirements act as a blueprint for developers, ensuring the solution is built in alignment with user needs and business goals.
+---
 
-5. Enhanced Quality Assurance
-Testers use the requirements as the basis for creating test cases. Clear and complete requirements lead to more effective testing and defect detection.
+## 🛠️ Steps in Requirement Analysis
 
-6. Facilitates Change Management
-Well-documented requirements make it easier to assess and manage the impact of changes during the project lifecycle.
+1. **Requirement Elicitation**  
+   Techniques: Interviews, surveys, observations, workshops, prototyping
 
-🧩 Types of Requirements
-Functional Requirements
+2. **Requirement Analysis**  
+   Analyze for clarity, feasibility, consistency, and priority
 
-Describe what the system should do.
+3. **Requirement Specification**  
+   Document requirements using SRS, use case diagrams, flowcharts, etc.
 
-Examples: User login, data validation, report generation.
+4. **Requirement Validation**  
+   Ensure correctness, completeness, and alignment with business goals
 
-Non-functional Requirements
+5. **Requirement Management**  
+   Track and manage changes throughout the development lifecycle
 
-Describe how the system performs a function.
+---
 
-Examples: Performance, scalability, security, usability.
+## 📉 Risks of Poor Requirement Analysis
 
-Business Requirements
+- Project delays
+- Increased cost
+- Unsatisfied users
+- Scope creep
+- Failure to meet business goals
 
-High-level needs of the organization or customer.
+---
 
-Examples: Increase market share, reduce processing time.
+## ✅ Best Practices
 
-User Requirements
+- Engage stakeholders early and continuously
+- Use visual tools (UML, flowcharts, wireframes)
+- Prioritize requirements (MoSCoW method)
+- Keep documentation clear, concise, and version-controlled
+- Validate requirements regularly with all stakeholders
 
-Tasks users must be able to perform using the system.
+---
 
-Often represented using user stories or personas.
+## 📘 Conclusion
 
-System Requirements
+Requirement Analysis is a foundational process in the SDLC. It ensures that software is built to solve the right problem in the right way. Investing in good requirement analysis leads to successful projects, reduced costs, and satisfied users.
 
-Technical specifications of the system.
+---
 
-Includes hardware, software, and integration needs.
+## 📎 Related Documents
 
-🛠️ Steps in Requirement Analysis Process
-Requirement Elicitation
+- [Software Requirements Specification (SRS)](docs/SRS.md)
+- [Use Case Diagrams](docs/use-cases.md)
+- [Prototypes and Mockups](docs/prototypes.md)
 
-Techniques: Interviews, surveys, observation, brainstorming, workshops, prototyping.
+> _“If you don't fully understand the problem, any solution you build is guaranteed to be wrong.”_
 
-Requirement Analysis
-
-Organize and categorize requirements.
-
-Identify conflicts or redundancies.
-
-Requirement Specification
-
-Create formal documentation like the SRS.
-
-Use diagrams, tables, and models for clarity.
-
-Requirement Validation
-
-Ensure requirements are feasible, consistent, testable, and aligned with business goals.
-
-Techniques: Reviews, walkthroughs, and prototyping.
-
-Requirement Management
-
-Track changes and maintain version control.
-
-Use tools like JIRA, Trello, or DOORS.
-
-📉 Consequences of Poor Requirement Analysis
-Project delays
-
-Cost overruns
-
-Poor product quality
-
-User dissatisfaction
-
-Failure to meet business objectives
-
-✅ Best Practices
-Engage all relevant stakeholders early and often.
-
-Prioritize requirements based on business value.
-
-Maintain continuous communication throughout SDLC.
-
-Use visual models and prototypes to reduce ambiguity.
-
-Validate and revalidate requirements frequently.
-
-📘 Conclusion
-Requirement Analysis is not just a phase, but a continuous discipline throughout the software development lifecycle. It directly influences the success of the project by ensuring that the final product aligns with user needs and business goals. Investing time and effort in thorough requirement analysis reduces risk, saves cost, and enhances software quality and user satisfaction.
